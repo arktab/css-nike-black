@@ -31,9 +31,6 @@ img {
 	height: auto;
 }
 
-html{
-	height: 100%;
-}
 
 body, html {
 	min-height: 100%;
@@ -52,9 +49,8 @@ body, html {
 /* Main Styles */
 body{
 	font-family: var(--font-main);
-	color: #fff;
 }
-/* body:before{
+body:before{
 	content: '';
 	position: absolute;
 	top: 0;
@@ -66,7 +62,7 @@ body{
 	opacity:.5;
 	pointer-events: none;
 	z-index: -1;
-} */
+}
 body:after{
 	content: '';
 	position: absolute;
@@ -75,15 +71,15 @@ body:after{
 	left: 0;
 	right: 0;
 	background: url('../images/img/bg2.png');
-	background-size: 200%, 200% cover;
+	background-size: 80%, 80%;
+	background-size:cover;
+	background-repeat: no-repeat;
 	opacity:1;
 	pointer-events: none;
 	background-color: #c5c5c8;
 	z-index: -2;
 }
 .container{
-	/* width: 690vw;
-	height: 390vh; */
 	margin: 32vh auto;
 	width: 690px;
 	height: 390px;
